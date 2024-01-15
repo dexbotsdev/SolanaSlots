@@ -11,7 +11,7 @@ export const checkIfWalletConnected = async () => {
   return new Promise(async (resolve, reject) => {
     try {
       // setLoading(true);
-      if (solana && solana.isPhantom) {
+      if (solana) {
         const response = await solana.connect({
           onlyIfTrusted: true,
         });

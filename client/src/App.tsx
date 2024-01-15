@@ -102,7 +102,7 @@ function App() {
               });
             }}
           >
-            Connect Phantom Wallet
+            Connect
           </button>
         )}
       </div>
